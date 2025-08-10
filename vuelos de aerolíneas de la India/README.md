@@ -2,6 +2,41 @@
 
 Este proyecto presenta un análisis visual interactivo sobre datos de vuelos nacionales en India. A través de un dashboard en Power BI, se responden preguntas clave relacionadas con precios, aerolíneas, horarios, ciudades, clases y comportamiento de compra anticipada.
 
+Conjunto de datos de vuelos de aerolíneas para diferentes ciudades
+El conjunto de datos de reservas de vuelos de varias aerolíneas se extrae por fecha de un sitio web 
+conocido en un formato estructurado. Contiene los registros de detalles de vuelos entre ciudades de la India. 
+Incluye diversas características, como ciudad de origen y destino, hora de llegada y salida, duración y precio del 
+vuelo, etc.
+
+Estas son las principales características/columnas disponibles en el conjunto de datos:
+
+1) Aerolínea: El nombre de la aerolínea se almacena en la columna "Aerolínea". Es una característica categórica que 
+incluye 6 aerolíneas diferentes.
+
+2) Vuelo: Vuelo almacena información sobre el código de vuelo del avión. Es una característica categórica.
+
+3) Ciudad de origen: Ciudad desde la que despega el vuelo. Es una característica categórica con 6 ciudades únicas.
+
+4) Hora de Salida: Esta es una característica categórica derivada que se obtiene agrupando períodos de tiempo en 
+intervalos. Almacena información sobre la hora de salida y tiene seis etiquetas de tiempo únicas.
+
+5) Paradas: una característica categórica con 3 valores distintos que almacena el número de paradas entre las ciudades 
+de origen y destino.
+
+6) Hora de llegada: Esta es una característica categórica derivada que se crea agrupando intervalos de tiempo en 
+contenedores. Tiene seis etiquetas de tiempo distintas y guarda información sobre la hora de llegada.
+
+7) Ciudad de destino: Ciudad donde aterrizará el vuelo. Es una característica categórica con 6 ciudades únicas.
+
+8) Clase: Característica categórica que contiene información sobre la clase del asiento; tiene dos valores distintos: 
+Business y Economy.
+
+9) Duración: una característica continua que muestra la cantidad total de tiempo que lleva viajar entre ciudades en 
+horas.
+
+10) Días restantes: es una característica derivada que se calcula restando la fecha del viaje a la fecha de reserva.
+
+11) Precio: La variable objetivo almacena información del precio del billete.
 ---
 
 ## 🎯 Objetivos del Proyecto
